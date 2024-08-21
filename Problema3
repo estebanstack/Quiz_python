@@ -1,0 +1,5 @@
+puntos=[(1,2),(2,3),(0,1),(3,3)]
+
+puntos_ordenados=sorted(puntos,key=lambda x:(x[0],x[1]))
+
+print(puntos_ordenados)
