@@ -1,0 +1,7 @@
+lista_numeros=[1,2,3,4,5]
+
+lista_numeros_duplicados=list(map(lambda x:x*2, lista_numeros))
+
+print("Numeros: ", lista_numeros)
+
+print("Numeros duplicados: ", lista_numeros_duplicados)
